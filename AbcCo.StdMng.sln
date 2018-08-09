@@ -55,6 +55,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbcCo.StdMng.Repositories.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbcCo.StdMng.Repositories.DB.EF", "AbcCo.StdMng.Repositories.DB.EF\AbcCo.StdMng.Repositories.DB.EF.csproj", "{BF1063E7-6730-4E83-A419-DDFFA8A7144C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{0CD7612A-592B-4A94-A7DA-6192DD40464F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\_Layout.cshtml = ..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\_Layout.cshtml
+		..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\App.config = ..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\App.config
+		..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\Create.cshtml = ..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\Create.cshtml
+		..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\CustomerController.cs = ..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\CustomerController.cs
+		..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\GetInvoiceItems.cshtml = ..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\GetInvoiceItems.cshtml
+		..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\IRepository.cs = ..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\IRepository.cs
+		..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\MyLoginController.cs = ..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\MyLoginController.cs
+		..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\PosContext.cs = ..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\PosContext.cs
+		..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\Repository.cs = ..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\Repository.cs
+		..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\WebClient.cs = ..\..\..\Downloads\Smaples2-master\Smaples2-master\Sample Code\WebClient.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
