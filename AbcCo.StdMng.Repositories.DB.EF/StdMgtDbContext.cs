@@ -10,7 +10,7 @@ namespace AbcCo.StdMng.Repositories.DB.EF
     {
         public StdMgtDbContext() : base("LocalDBConnectionString")
         {
-
+            //this.Configuration.ProxyCreationEnabled = false;
         }
 
         public StdMgtDbContext(IAppSettings appSettings) : base(appSettings.DbConnectionName) //base("StudentMgtConnectionString")
@@ -24,6 +24,12 @@ namespace AbcCo.StdMng.Repositories.DB.EF
         //DbSet<Subject> Subject { get; set; }
         //DbSet<Enrollment> Enrollment { get; set; }
         public DbContext GetDatabaseContext { get; set; }
+
+
+        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+        //}
 
 
     }

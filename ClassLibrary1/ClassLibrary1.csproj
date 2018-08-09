@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="CustomerController.cs" />
+    <Compile Include="CustomerController2.cs" />
     <Compile Include="IRepository.cs" />
     <Compile Include="MyLoginController.cs" />
     <Compile Include="PosContext.cs" />

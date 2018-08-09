@@ -59,6 +59,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{0CD7612A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{6DCE73D7-5677-43B9-B4D3-785E27503786}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbcCo.StdMng.BusinessService.Test", "AbcCo.StdMng.BusinessService.Test\AbcCo.StdMng.BusinessService.Test.csproj", "{E6D8530C-D479-442F-91CB-659B0676B62E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +115,10 @@ Global
 		{6DCE73D7-5677-43B9-B4D3-785E27503786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DCE73D7-5677-43B9-B4D3-785E27503786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DCE73D7-5677-43B9-B4D3-785E27503786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6D8530C-D479-442F-91CB-659B0676B62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D8530C-D479-442F-91CB-659B0676B62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D8530C-D479-442F-91CB-659B0676B62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D8530C-D479-442F-91CB-659B0676B62E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -140,5 +146,6 @@ Global
 		{FEAD73AF-9F1A-4A5C-AFF2-756D28C024E8} = {CB565E84-5FFE-4A7C-A366-AA7E120973B0}
 		{BF1063E7-6730-4E83-A419-DDFFA8A7144C} = {B7C7A02C-EDD8-4F16-BEF5-3E5E08BAA761}
 		{6DCE73D7-5677-43B9-B4D3-785E27503786} = {0CD7612A-592B-4A94-A7DA-6192DD40464F}
+		{E6D8530C-D479-442F-91CB-659B0676B62E} = {03354703-C00F-43DE-BD27-349D97ECFD83}
 	EndGlobalSection
 EndGlobal
