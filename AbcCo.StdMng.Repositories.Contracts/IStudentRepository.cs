@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbcCo.StdMng.Common.Ioc.Unity
+namespace AbcCo.StdMng.Repositories.Contracts
 {
-    public class Class1
+    public interface IStudentRepository : IRepository<Studnt>
     {
+
     }
 }

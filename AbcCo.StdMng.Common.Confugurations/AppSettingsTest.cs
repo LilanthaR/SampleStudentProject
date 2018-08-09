@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbcCo.StdMng.Repositories.DB.EF
+namespace AbcCo.StdMng.Common.Confugurations
 {
-    public class Class1
+    class AppSettingsTest
     {
     }
 }

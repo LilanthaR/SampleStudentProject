@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace AbcCo.StdMng.Common.Logs.Contracts
 {
-    public class Class1
+    public interface ILogger
     {
+        bool LogError(string errDescription, Exception err);
+
+        bool LogInfo(string description);
     }
 }

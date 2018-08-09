@@ -11,6 +11,7 @@ namespace AbcCo.StdMng.Deployable.Web.Controllers
         public ActionResult Index()
         {
             return View();
+            //  StudentViewModel studentViewModel = Mapper.Map<Student, StudentViewModel>(student);
         }
 
         public ActionResult About()
